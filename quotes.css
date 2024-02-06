@@ -18,16 +18,12 @@ figure h1 {
   /* min-width: 609px; */
   font-weight: bold;
   padding: 2rem;
-  margin: 2rem;
-}
-
-.orange {
-  /* color: orange; */
+  margin: 0.5rem;
 }
 
 figure button {
   /* width: 70%; */
-  margin: 8rem auto;
+  margin: 7rem auto;
   transform: rotate(2deg);
   font-weight: bolder;
   padding: 1rem 3.4rem;
@@ -39,8 +35,12 @@ figure button {
 }
 
 main h2 {
-  color: rgb(0, 98, 255);
-  padding: 4rem;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding: 2rem;
+  margin: 3rem;
+  border-radius: 40px;
   font-weight: bold;
   text-align: center;
 }

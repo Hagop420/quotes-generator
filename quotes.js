@@ -274,12 +274,27 @@ document.querySelector('button.start').addEventListener('click', () => {
 
     iframe_muted.src =
       'https://www.youtube-nocookie.com/embed/ZQNTcxdU8xw?si=eQCuUIhWG-rQtq2b&muted=1'
+
+    const audioPlayWhenButtonIsClicked = new Audio()
+
+    audioPlayWhenButtonIsClicked.src =
+      'https://www.fesliyanstudios.com/play-mp3/387'
+
+    audioPlayWhenButtonIsClicked.play()
   })
+
   document.querySelector('.play').addEventListener('click', () => {
     const iframe_muted = document.querySelector('body>iframe')
 
     iframe_muted.src =
       'https://www.youtube-nocookie.com/embed/ZQNTcxdU8xw?si=eQCuUIhWG-rQtq2b&autoplay=1'
+
+    const audioPlayWhenButtonIsClicked = new Audio()
+
+    audioPlayWhenButtonIsClicked.src =
+      'https://www.fesliyanstudios.com/play-mp3/387'
+
+    audioPlayWhenButtonIsClicked.play()
   })
 })
 
