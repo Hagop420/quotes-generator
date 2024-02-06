@@ -39,7 +39,9 @@ figure button {
 }
 
 main h2 {
+  color: rgb(0, 98, 255);
   padding: 4rem;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -104,5 +106,33 @@ figure > button:active {
 main em {
   position: relative;
   top: 13px;
-  color: rgb(255, 174, 0);
+  color: rgb(13, 12, 10);
+}
+.red {
+  color: red;
+}
+
+.parentFlexed {
+  display: flex;
+  justify-content: center;
+}
+
+.stop,
+.play {
+  padding: 5px 45px;
+  border: 0;
+  margin: 20px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.stop:hover,
+.play:hover {
+  opacity: 0.9;
+  background-color: rgb(170, 148, 148);
+}
+
+.stop:active,
+.play:active {
+  background-color: rgb(254, 254, 254);
 }
