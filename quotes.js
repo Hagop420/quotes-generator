@@ -297,10 +297,3 @@ document.querySelector('button.start').addEventListener('click', () => {
     audioPlayWhenButtonIsClicked.play()
   })
 })
-
-// document.querySelector('body').addEventListener('mouseout', () => {
-//   const iframe_muted = document.querySelector('iframe')
-
-//   iframe_muted.src =
-//     'https://www.youtube.com/embed/OydH5P_Wru8?autoplay=1&mute=1'
-// })
